@@ -5,7 +5,7 @@
  */
 
 /** @type {string} */
-export const API_URL = 'https://script.google.com/macros/s/COLE_AQUI_O_ID_DA_IMPLANTACAO/exec';
+export const API_URL = 'https://script.google.com/macros/s/AKfycbz7bbF61GI-496O_CQsOuM_tz-OTfYJeqhhVFGRpSePyXHjgVi0Yt3UGtt5PqmicgMp/exec';
 
 /** Tempo máximo de espera por resposta do Apps Script (cold start pode passar de 5s). */
 export const REQUEST_TIMEOUT_MS = 30000;
