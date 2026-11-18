@@ -197,3 +197,15 @@ button.input-adornment:hover { color: var(--gray-700); }
 .rotate-180 { transform: rotate(180deg); }
 .pt-0 { padding-top: 0; }
 .select.locked:disabled { opacity: 1; }
+
+/* ─── Página inicial ────────────────────────────────────── */
+
+body:has(.landing) { overflow: auto; }
+.landing { min-height: 100vh; background: var(--page); display: flex; align-items: center; justify-content: center; padding: 2rem 1rem; }
+.landing-inner { width: 100%; max-width: 760px; display: flex; flex-direction: column; gap: 0.75rem; }
+.brand-dark { color: var(--gray-900); }
+.brand-dark small { color: #fff; }
+.landing-grid { margin-top: 1rem; }
+.landing-card { display: block; transition: border-color 0.15s, box-shadow 0.15s; }
+.landing-card:hover { border-color: var(--primary); box-shadow: 0 4px 12px rgba(74, 30, 166, 0.12); }
+.landing-card:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
